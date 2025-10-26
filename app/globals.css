@@ -24,3 +24,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+@font-face {
+  font-family: "MyFont";
+  src: url("/fonts/Caveat-VariableFont_wght.ttf") format(".ttf");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+.font-handwritten {
+  font-family: "Caveat";
+}
