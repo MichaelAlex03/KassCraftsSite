@@ -1,0 +1,10 @@
+# Robots.txt for Kassy's Krafts
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml
+
+# Crawl-delay for politeness (optional)
+Crawl-delay: 1
