@@ -96,7 +96,7 @@ const Contact = () => {
                   Ready to order? Fill out our quick order form to get started with your custom design!
                 </p>
                 <button
-                  onClick={() => window.open('YOUR_GOOGLE_FORM_LINK', '_blank', 'noopener,noreferrer')}
+                  onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSfu1lDUnYYlKMzlyyaKa124g9YcKKxA86NgrGSZCKAAMrBCXw/viewform', '_blank', 'noopener,noreferrer')}
                   className="inline-flex items-center gap-2 px-8 py-3 bg-[#c47de8] hover:bg-[#c47de8]/90 text-white rounded-full font-semibold shadow-lg hover:shadow-xl transition-all hover:scale-105"
                 >
                   <QrCode className="w-5 h-5" />
